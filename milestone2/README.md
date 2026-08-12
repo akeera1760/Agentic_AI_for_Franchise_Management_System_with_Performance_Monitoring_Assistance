@@ -356,7 +356,7 @@ This project is intended for educational, research, and enterprise demonstration
   2. Mounika <br>
   3. Sai Gouthami <br>
   4. Tazreen Rehman <br>
-  5. Divya <br>
+  5. Divya sree <br>
   
 
 Enterprise Multi-Agent Intelligence Platform developed to demonstrate the integration of Artificial Intelligence, Machine Learning, Large Language Models, and Enterprise Dashboard Analytics into a unified franchise management ecosystem.
