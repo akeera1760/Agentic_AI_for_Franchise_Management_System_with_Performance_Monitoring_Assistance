@@ -1,5 +1,4 @@
-# ⚡ FranchiseOps AI
-### Enterprise Multi-Agent Intelligence Platform for Smart Franchise Management
+# ⚡ Agentic AI for Franchise Management System with Performance Monitoring Assistance
 
 FranchiseOps AI is an enterprise-grade AI platform that combines multiple intelligent agents into a single dashboard for managing franchise operations. The platform helps organizations monitor workforce, inventory, outlet performance, and business analytics while providing AI-powered recommendations through a unified copilot.
 
