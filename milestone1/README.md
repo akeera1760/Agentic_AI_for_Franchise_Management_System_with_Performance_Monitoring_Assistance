@@ -1,4 +1,4 @@
-# ⚡ Infosys Portal - Authentication System
+# ⚡ Agentic AI for Franchise Management System with Performance Monitoring Assistance
 
 A complete **Streamlit-based authentication portal** with login, signup, forgot password, and admin dashboard capabilities.
 
