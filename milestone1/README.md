@@ -279,4 +279,11 @@ For issues or questions, check:
 
 ---
 
-**Last Updated:** July 2026
+Team members
+
+1. Akeeranandan<br>
+2. Mounika<br>
+3. Sai Gouthami<br>
+4. Tazreen Rehman<br>
+5. Divya<br>
+
