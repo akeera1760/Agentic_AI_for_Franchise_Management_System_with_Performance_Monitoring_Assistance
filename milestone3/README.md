@@ -1,4 +1,4 @@
-# FranchiseOps AI — RAG Knowledge Base & Operations Engine
+# Agentic AI for Franchise Management System — RAG Knowledge Base & Operations Engine
 
 An end-to-end Retrieval-Augmented Generation (RAG) pipeline built for Quick Service Restaurants (QSR) and franchise operations management. This tool automates the web scraping, PDF document processing, embedding generation, and vector search indexing for internal Standard Operating Procedures (SOPs), government regulations, food safety acts, and labor laws.
 
@@ -64,24 +64,6 @@ Appends 65 pre-curated store SOPs (IDs `KB-101` to `KB-165`) covering critical t
 * Generates vector embeddings via `HuggingFaceEmbeddings` (`all-MiniLM-L6-v2`).
 * Saves the FAISS vector index locally (`./franchiseops_faiss_index`) and syncs a copy to Google Drive.
 
----
-
-## 💻 Usage & Query Interface
-
-Once built, you can perform semantic similarity searches against the knowledge base:
-
-```python
-# Perform similarity search
-query = "What is the minimum freezer temperature?"
-results = vectorstore.similarity_search(query, k=3)
-
-for rank, result in enumerate(results, start=1):
-    print(f"--- Match {rank} ---")
-    print(f"Content: {result.page_content}")
-    print(f"Source: {result.metadata.get('source')} | ID: {result.metadata.get('id', 'N/A')}\n")
-```
-
----
 
 ## 📝 Sample Knowledge Base Topics Covered
 
@@ -91,3 +73,11 @@ for rank, result in enumerate(results, start=1):
 | **HR & Labor** | Minimum wage reviews, minor break laws, POSH Act committees. |
 | **Store Operations** | Shift staffing, POS outage workflows, daily fryer oil filtering. |
 | **Compliance & Escalation** | FSSAI penalties, viral complaint response time, glass breakage protocols. |
+
+## Team members
+1. Akeeranandan<br>
+2. Tasreen <br>
+3. Mounika <br>
+4. Sai Gowthami<br>
+5. Divya sree
+
