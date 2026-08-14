@@ -74,6 +74,11 @@ Appends 65 pre-curated store SOPs (IDs `KB-101` to `KB-165`) covering critical t
 | **Store Operations** | Shift staffing, POS outage workflows, daily fryer oil filtering. |
 | **Compliance & Escalation** | FSSAI penalties, viral complaint response time, glass breakage protocols. |
 
+## output
+
+<img width="808" height="496" alt="image" src="https://github.com/user-attachments/assets/58af0a3a-6ce6-4854-8a20-5ee87234e389" />
+
+
 ## Team members
 1. Akeeranandan<br>
 2. Tasreen <br>
