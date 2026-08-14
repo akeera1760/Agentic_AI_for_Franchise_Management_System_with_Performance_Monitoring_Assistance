@@ -1,0 +1,2 @@
+# Agentic AI for Franchise Management System — RAG Knowledge Base & Operations Engine 
+end-to-end Retrieval-Augmented Generation (RAG) pipeline built for Quick Service Restaurants (QSR) and franchise operations management. This tool automates the web scraping, PDF document processing, embedding generation, and vector search indexing for internal Standard Operating Procedures (SOPs), government regulations, food safety acts, and labor laws.  
