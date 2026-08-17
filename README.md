@@ -26,7 +26,6 @@
 * [Installation & Run Instructions](#-installation--run-instructions)
 * [Requirements](#-requirements)
 * [Environment Variables](#-environment-variables)
-* [Security Checklist](#-security-checklist)
 * [Known Limitations](#-known-limitations)
 * [Future Scope](#-future-scope)
 * [Acknowledgements](#-acknowledgements)
@@ -46,12 +45,12 @@ FranchiseOps AI was developed as part of the **Infosys Springboard Internship â€
 
 ### Team Members
 
-| Name         | Role / What They Built | GitHub        |
-| ------------ | ---------------------- | ------------- |
-| `[Member 1]` | `[Contribution]`       | `@[username]` |
-| `[Member 2]` | `[Contribution]`       | `@[username]` |
-| `[Member 3]` | `[Contribution]`       | `@[username]` |
-| `[Member 4]` | `[Contribution]`       | `@[username]` |
+| Name                | Role / What They Built | GitHub        |
+| --------------------| ---------------------- | ------------- |
+| `Akeeranandan`      |                        | `akeera1760`  |
+| `Muskan patel`      |                        |               |
+| `Tazreen Rehman`    |                        |               |
+| `Vekata Shive Reddy`|                        |               |
 
 > Replace the placeholders above with the actual internship team details before submission.
 
