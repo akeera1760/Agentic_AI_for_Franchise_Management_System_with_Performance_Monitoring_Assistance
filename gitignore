@@ -1,0 +1,55 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Databases & runtime data
+*.db
+*.sqlite
+*.sqlite3
+runtime_data/
+franchise_database.db
+faiss_index/
+bm25_index/
+st_cache/
+pdfs/
+
+# ML / model caches
+.cache/
+huggingface_cache/
+hf_cache/
+models/
+*.safetensors
+*.bin
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
