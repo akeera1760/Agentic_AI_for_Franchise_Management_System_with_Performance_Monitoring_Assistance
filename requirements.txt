@@ -1,0 +1,53 @@
+# FranchiseOps AI - requirements.txt
+# Generated from the imports and dependency requirements present in
+# FranchiseOps_AI_Aurora_Redesign.ipynb.
+#
+# IMPORTANT:
+# These are pinned baseline versions because the notebook specified
+# minimum versions (>=), not the exact environment used to run it.
+# Before final submission, run `pip freeze` in the successfully tested
+# clean environment and replace these pins with the actual tested versions.
+
+# Core
+streamlit==1.36.0
+streamlit-option-menu==0.3.13
+pandas==2.2.2
+numpy==1.26.4
+requests==2.31.0
+networkx==3.3
+
+# ML
+scikit-learn==1.4.2
+
+# LLM & NLP
+torch==2.2.2
+transformers==4.41.2
+accelerate==0.30.1
+bitsandbytes==0.43.1
+sentencepiece==0.2.0
+deep-translator==1.11.4
+
+# PDF / RAG / Document Processing
+pdfplumber==0.11.0
+reportlab==4.2.0
+
+# Authentication
+bcrypt==4.1.3
+
+# API / Model Server
+fastapi==0.111.0
+pydantic==2.7.4
+uvicorn==0.30.1
+
+# Visualization
+plotly==5.20.0
+folium==0.15.1
+streamlit-folium==0.22.0
+
+# Optional GPU acceleration
+# bitsandbytes is already pinned above. It is used for the Qwen
+# 4-bit loading path when a compatible CUDA environment is available.
+
+# OS-level dependencies are NOT installed by pip:
+# - NVIDIA driver / CUDA runtime for GPU acceleration
+# - Google Colab already provides the google.colab package when running there.
