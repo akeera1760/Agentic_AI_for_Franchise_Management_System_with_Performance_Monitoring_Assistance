@@ -41,16 +41,16 @@ FranchiseOps AI was developed as part of the **Infosys Springboard Internship �
 ### Mentor
 
 **Mentor:** `MOHAMEDSIPLI M`
-**Designation:** ``
+**Designation:** `Industry Mentor`
 
 ### Team Members
 
-| Name                | Role / What They Built | GitHub        |
-| --------------------| ---------------------- | ------------- |
-| `Akeeranandan`      |                        | `akeera1760`  |
-| `Muskan patel`      |                        |               |
-| `Tazreen Rehman`    |                        |               |
-| `Venkata Siva Reddy`|                        |               |
+| Name                | Role / What They Built                                                        | GitHub        |
+| --------------------| ----------------------------------------------------------------------------- | ------------- |
+| `Akeeranandan`      | Team Lead & Full-Stack AI Developer — Authentication, Admin Dashboard, AI Agents, RAG Pipeline | `akeera1760`  |
+| `Muskan Patel`      | Inventory Intelligence & Demand Forecasting Agent                             | `muskanpatel98`|
+| `Tazreen Rehman`    | RAG Pipeline & Document Intelligence (Milestone 3)                            | `tasha24_ux`|
+| `Venkata Siva Reddy`| Workforce Intelligence & Outlet Revenue Analytics                             |   `shiva085A01`|
 
 
 ---
@@ -229,15 +229,9 @@ Rather than having a single generic chatbot, FranchiseOps AI provides nine speci
 
 The agent provides workforce segmentation and employee-retention risk insights.
 
-### Best Model
-
-**Selected model:** `[Insert benchmark winner]`
-
-**Why:** `[Insert reason based on the model-performance ledger, such as highest F1/accuracy or best validated performance.]`
-
 ### Data
 
-The overall system's data layer contains staff records. Confirm the exact SQL table names used by the implementation before final submission.
+The overall system's data layer contains staff records sourced from the SQLite database.
 
 ---
 
@@ -694,10 +688,6 @@ The Streamlit application should then provide the FranchiseOps AI interface.
 
 # ☁️ Run on Google Colab
 
-If the project is also distributed as a Google Colab notebook, add the notebook link here:
-
-**Colab:** `[ADD COLAB LINK]`
-
 ### Execution Order
 
 ```text
@@ -710,8 +700,6 @@ If the project is also distributed as a Google Colab notebook, add the notebook 
 7. Load LLM / fallback model
 8. Start application
 ```
-
-> Replace the above sequence with the exact notebook cell order used by the project.
 
 ---
 
@@ -742,59 +730,25 @@ Qwen2.5-3B-Instruct
 
 ### Installation Estimate
 
-> **Expected installation time:** `[ADD ACTUAL TIME AFTER CLEAN INSTALL TEST]`
-
-> **Expected disk space:** `[ADD ACTUAL SIZE INCLUDING MODEL WEIGHTS]`
-
 Large LLM and NLP model weights may require several GB of storage.
 
 ---
 
 # 📦 requirements.txt
 
-`requirements.txt` should contain **pinned versions** for all packages used by the codebase.
+`requirements.txt` contains pinned versions for all packages used by the codebase. Install with:
 
-Example format:
-
-```text
-# Core
-streamlit==<version>
-pandas==<version>
-numpy==<version>
-
-# ML
-scikit-learn==<version>
-
-# LLM & NLP
-torch==<version>
-transformers==<version>
-bitsandbytes==<version>
-sentence-transformers==<version>
-faiss-cpu==<version>
-
-# Visualization
-plotly==<version>
-folium==<version>
-
-# Auth
-PyJWT==<version>
-python-dotenv==<version>
-
-# Reporting / Document Processing
-<package>==<version>
+```bash
+pip install -r requirements.txt
 ```
-
-> **Important:** Do not copy these placeholders directly into `requirements.txt`. Generate the final file from the successfully tested environment using `pip freeze`, then remove unused packages and organise the resulting pinned dependencies.
 
 ### OS-Level Dependencies
 
-Depending on the implementation, additional system dependencies may be required, such as:
+Depending on the environment, additional system dependencies may be required:
 
 * CUDA-compatible drivers
 * FFmpeg
 * Poppler
-
-Document the exact dependencies required by the final implementation.
 
 ---
 
@@ -930,14 +884,10 @@ FranchiseOps AI uses interactive visualisations to make analytical outputs easie
 
 # ⚠️ Known Limitations
 
-The following limitations should be stated honestly according to the actual implementation:
-
-1. **Synthetic / seeded data:** The project may rely on seeded or synthetic franchise data rather than live enterprise data.
+1. **Synthetic / seeded data:** The project relies on seeded or synthetic franchise data rather than live enterprise data.
 2. **SQLite database:** SQLite is suitable for development and demonstration but may require migration to a production database for large-scale deployments.
 3. **Single-tenant architecture:** The current implementation may require additional work for true multi-tenant franchise organisations.
 4. **Local model resources:** Running the larger LLM locally can require substantial RAM/VRAM and disk space.
-
-> Update these points if the final implementation differs.
 
 ---
 
@@ -974,12 +924,9 @@ This project was developed as part of the:
 
 **Infosys Springboard Internship — Batch 1**
 
-We sincerely thank MOHAMEDSIPLI M, **[Designation]**, for the guidance and support provided throughout the project.
+We sincerely thank MOHAMEDSIPLI M for the guidance and support provided throughout the project.
 
 We also acknowledge the Infosys Springboard team for providing the learning and development opportunity.
-
----
-
 
 ---
 
