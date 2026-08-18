@@ -50,9 +50,8 @@ FranchiseOps AI was developed as part of the **Infosys Springboard Internship â€
 | `Akeeranandan`      |                        | `akeera1760`  |
 | `Muskan patel`      |                        |               |
 | `Tazreen Rehman`    |                        |               |
-| `Vekata Shive Reddy`|                        |               |
+| `Venkata Siva Reddy`|                        |               |
 
-> Replace the placeholders above with the actual internship team details before submission.
 
 ---
 
